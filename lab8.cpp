@@ -29,7 +29,7 @@ int main(){
     long int count = 0;
     for(int i = 0; i < pow(10,40); ++i)
         count = count + function(i);
-
+    std::cout<<count;
     system("pause");
     return 0;
 }
